@@ -15,6 +15,7 @@ Implement a Kubernetes CronJob running a Python script.
 Demonstrate monitoring, scaling, and self-healing features of Kubernetes.
 
 Show hands-on DevOps + Python integration.
+
                 ┌───────────────────────────────────┐
                 │            Users 🌍               │
                 └───────────────┬───────────────────┘
@@ -36,6 +37,8 @@ Show hands-on DevOps + Python integration.
                        ┌────────────────────┐
                        │  CronJob (Python)  │  -> Runs periodic batch task
                        └────────────────────┘
+## 📂 Repo Structure   
+```
 project12-k8s-flask-app/
 │
 ├── app/
