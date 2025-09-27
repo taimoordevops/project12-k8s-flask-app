@@ -1,6 +1,6 @@
 #  Project 12 – Kubernetes Deployment of Python Flask App  
 
-This project demonstrates how to deploy and manage a Python Flask application on Kubernetes using **Docker**, **kubectl**, and **Helm (optional)**. It also introduces background workloads with Kubernetes **CronJobs**, proving real-world DevOps and Cloud Engineering skills.  
+This project demonstrates how to deploy and manage a Python Flask application on Kubernetes using Docker and kubectl, showing real-world DevOps and Cloud Engineering skills.
 
 ---
 
@@ -65,7 +65,8 @@ project12-k8s-flask-app/
 │ └── flask-app-curl.png
 │
 └── README.md
-## ⚙️ Steps Performed  
+```
+## Steps Performed  
 
 1. **Built & Pushed Docker Image**  
    - Flask app containerized (`app/Dockerfile`).  
@@ -84,9 +85,7 @@ project12-k8s-flask-app/
    - Confirmed both replicas running and serving traffic.  
 
 5. **(Optional) CronJob**  
-   - Created CronJob YAML for periodic background Python task.  
-
----
+   - Created CronJob YAML for periodic background Python task.
 
 ## Screenshots  
 
